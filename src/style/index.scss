@@ -1,5 +1,13 @@
 @import "./mixins.scss";
 
+@import url('https://fonts.googleapis.com/css2?family=Solway&display=swap');
+
+body, html {
+  font-family: 'Solway', serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
 
 body {
   scroll-behavior: smooth;
